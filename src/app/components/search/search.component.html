@@ -6,10 +6,9 @@
             <p class="mb-5">Digite a Cidade ou o Local para podermos mostrar a previsão do tempo:</p>
             <div class="input-group input-group-newsletter">
                 <input class="form-control" type="email" placeholder="Digite o Local..." aria-label="Enter email address..." aria-describedby="submit-button" />
-                <button class="btn btn-primary" id="submit-button" type="button">Notify Me!</button>
+                <a (click)="goToWeather()"><button class="btn btn-primary" id="submit-button" type="button">Pesquisar</button></a>
             </div>
         </div>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/scripts.js"></script>
+<router-outlet></router-outlet>

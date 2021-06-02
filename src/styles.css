@@ -10922,6 +10922,9 @@ video.bg-video {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 1rem;
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
 }
 
 @media (min-width: 992px) {
@@ -10942,7 +10945,7 @@ video.bg-video {
     padding-right: 9rem;
   }
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
   .masthead .masthead-content p {
     font-size: 1.3rem;
