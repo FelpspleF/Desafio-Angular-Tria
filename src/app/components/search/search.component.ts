@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class SearchComponent implements OnInit {
 
-  constructor(private router: Router, private http : HttpClient) { }
+  constructor(private router: Router, private http: HttpClient) { }
 
   ngOnInit(): void {
   }
